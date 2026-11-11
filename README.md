@@ -20,8 +20,8 @@ A two-line recap in a 330k-token session triggered a **$6.61 estimate**. After r
 Needs [Claude Code 2.1.287 or later](https://code.claude.com/docs/en/plugins/mods/overview#turn-mods-on-or-off), a one-hour cache and Claude Code left running. Mods are on by default. Pings cost tokens, including uncapped output.
 
 ```sh
-claude plugin marketplace add karanb192/claude-code-mods
-claude plugin install cache-tax@claude-code-mods
+claude plugin marketplace add volkstrader/cc-mod-cache-tax
+claude plugin install cache-tax@volkstrader-cache-tax
 ```
 
 Restart Claude Code or run `/reload-plugins` in an open session. No early-access flag is needed. If you set `CLAUDE_CODE_ENABLE_FUNCTION_HOOKS` previously, remove it; current Claude Code ignores it.

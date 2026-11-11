@@ -1,0 +1,17 @@
+{
+  "name": "volkstrader-cache-tax",
+  "owner": {
+    "name": "volkstrader",
+    "url": "https://github.com/volkstrader"
+  },
+  "metadata": {
+    "description": "volkstrader fork of karanb192/cache-tax (MIT)"
+  },
+  "plugins": [
+    {
+      "name": "cache-tax",
+      "description": "A Claude Code mod that keeps the one-hour prompt cache warm during breaks and asks before a cold send, showing its estimated rewrite cost. Warming uses model requests and costs tokens. Requires Claude Code 2.1.287+.",
+      "source": "./"
+    }
+  ]
+}
